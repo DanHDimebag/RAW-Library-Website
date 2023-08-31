@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookList</title>
+    <!--style for the website-->
+    <link rel="stylesheet" href="./CSS/responsiveness.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--New fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@600&family=Lumanosimo&display=swap" rel="stylesheet">
+    <!--ico website-->
+    <link rel="icon" href="./resources/ico/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img src="./resources/Logo_Examples.png" alt="" height="30">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./Homepage.html" class="active">Homepage</a>
+                    </li>
+                    <li>
+                        <a href="./Booklist.html">Book List</a>
+                    </li>
+                    <li>
+                        <a href="./About.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./Contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="loginSignup">
+                    <a href="./Login.html">Login</a> or <a href="./Login.html">Signup</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="loginSignup">
+                <a href="./Login.html">Login</a> or <a href="./Login.html">Signup</a>
+            </div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <!--Functionality plus-->
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("active");
+        }
+    </script>
+    <!--CONTENT SECTION-->
+
+<h1>Our books!</h1>
+<div class="bodyuniversal">
+    <div class="extraContent">
+        <div class="EC_aboutUs">
+            <h2>About us:</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Laudantium unde ex nihil, tenetur sunt ut, sit maxime nesciunt 
+                eius eligendi delectus ullam deleniti porro suscipit dicta esse 
+                eaque quas. Quisquam.
+            </p>
+        </div>
+        <div class="EC_Suggestions">
+            <h2>you might like:</h2>
+            <ul>
+                <li>
+                    <a href="./Books/Book1.html">Book name - author</a>
+                </li>
+                <li>
+                    <a href="./Books/Book1.html">Book name - author</a>
+                </li>
+                <li>
+                    <a href="./Books/Book1.html">Book name - author</a>
+                </li>
+                <li>
+                    <a href="./Books/Book1.html">Book name - author</a>
+                </li>
+                <li>
+                    <a href="./Books/Book1.html">Book name - author</a>
+                </li>
+                <li>
+                    <a href="./Books/Book1.html">Book name - author</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="booklistContainer">
+        <div class="Book">
+        <a href="./Books/Book1.html"><img src="./resources/book1.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+        <div class="Book">
+            <a href="./Books/Book1.html"><img src="./resources/book2.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+        <div class="Book">
+            <a href="./Books/Book1.html"><img src="./resources/book3.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+        <div class="Book">
+            <a href="./Books/Book1.html"><img src="./resources/book4.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+        <div class="Book">
+            <a href="./Books/Book1.html"><img src="./resources/book5.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+        <div class="Book">
+            <a href="./Books/Book1.html"><img src="./resources/book6.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+        <div class="Book">
+            <a href="./Books/Book1.html"><img src="./resources/book7.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+        <div class="Book">
+            <a href="./Books/Book1.html"><img src="./resources/book8.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+        <div class="Book">
+            <a href="./Books/Book1.html"><img src="./resources/book8.jpg" alt="150" height="180"></a>
+            <p>Book1</p>
+        </div>
+
+    </div>
+</div>
+      
+<!--Footer section-->
+<footer class="footer">
+   <div class="container">
+      <div class="row">
+         <div class="footer-col">
+            <h4>Library</h4>
+            <ul>
+               <li><a href="#">About us</a></li>
+               <li><a href="#">Our services</a></li>
+               <li><a href="#">Privacy policy</a></li>
+               <li><a href="#">Membership</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">Shipping</a></li>
+               <li><a href="#">Borrow a Book</a></li>
+               <li><a href="#">Order status</a></li>
+               <li><a href="#">Payment options</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+               <li><a href="#">Read online</a></li>
+               <li><a href="#">Books available</a></li>
+               <li><a href="#">Offers</a></li>
+               <li><a href="#">More</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="Copyright">
+    <p>
+     &copy; Copyright 2023 Fremantle Library|| All right reserves
+   </p>
+</div>
+</footer>
+<!-- Footer -->
+</body>
+</html>
