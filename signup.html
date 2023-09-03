@@ -66,33 +66,46 @@
     </script>
 <!--CONTENT SECTION-->
 
-<div class="LoginMContainer">
-    <!--right-->
-    <div id="logInFields">
-        <img src="./resources/login.png" alt="Fremantle Library Logo">
-        <form id="login">
-            <label for="username">Username/Email: </label><br>
-            <input type="text" id="username" placeholder="Enter your username" class="inFields" required>
-            <br>
-            <label for="password">Password: </label><br>
-            <input type="password" id="password" placeholder="Enter your password" class="inFields" required>
-            <br>
-            <hr>
-            <div class="remPassword">
-                <input type="checkbox" name="rememberPassword" id="rememberPassword"><label for="rememberPassword">Remember Password</label> <br>
-            </div>
-            <a href="">
-                Forgot your password?
-            </a> <br>
-            <button type="submit" onclick="myLogin()" class="logButton">Continue</button>
-            
-        </form>
+<div class="signupMContainer">
+    <div class="signupField">
+        <h2>Sign-Up</h2>
+        <!--User's name-->
+        <div class="input-Signup">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Username" required>
+        </div>
+        <div class="input-Signup">
+            <i class="fa fa-user-circle"></i>
+            <input type="text" placeholder="First Name" required>
+        </div>
+        <div class="input-Signup">
+            <i class="fa fa-user-circle"></i>
+            <input type="text" placeholder="Last Name" required>
+        </div>
+        <!--email-->
+        <div class="input-Signup">
+            <i class="fa fa-envelope"></i>
+            <input type="email" placeholder="Email" required>
+        </div>
+        <!--phone number-->
+        <div class="input-Signup">
+            <i class="fa fa-phone"></i>
+            <input type="text" placeholder="Cellphone">
+        </div>
+        <!--Password-->
+        <div class="input-Signup">
+            <i class="fa fa-key"></i>
+            <input type="password" placeholder="Password" required>
+        </div>
+        <div class="input-Signup">
+            <i class="fa fa-key"></i>
+            <input type="password" placeholder="Confirm your password" required>
+        </div>
+        <div class="buttonSignup">
+            <button class="btnSignup">Register</button>
+        </div>
+        
     </div>
-    <!--left-->
-    <div class="decorativeLogin">
-        <img src="./resources/possibleBackground.webp" alt="manga decorative">
-    </div>
-
 </div>
 <!--Footer section-->
 <footer class="footer">
