@@ -811,6 +811,15 @@ h2{
   width: 100%;
 
  }
+
+ .mapContainer{
+  width: 100%;
+  height: auto;
+ }
+ .contactMap{
+  width: 100%;
+  height: 600px;
+ }
  /*_______Book Information section_______*/
  .BookInformation{
   display: flex;
